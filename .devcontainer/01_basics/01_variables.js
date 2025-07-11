@@ -10,10 +10,14 @@ account_passwords = "12121441"
 acccountCity = "himachal pradesh"
 
 console.log(account_id);
+
+/*
+prefer not to use VAR
+because of issue in block scope and functional scope*/
+
 console.table([
   account_id,
   account_email,
   account_passwords, ])   
 
 
-// not to use VAR
